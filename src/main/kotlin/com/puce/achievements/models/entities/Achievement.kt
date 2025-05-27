@@ -19,5 +19,5 @@ data class Achievement(
     @Column(name = "date_at")
     val date: LocalDate = LocalDate.now(),
     @Column(name = "student_name")
-    val studentName: String = ""
+    val studentName: String = "",
 )
